@@ -62,19 +62,19 @@
 
         layer_3 {
             bindings = <
-&trans      &trans        &trans        &trans        &trans        &trans          &trans  &trans  &trans  &trans  &kp K_MUTE       &tog 4
-&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &trans  &trans  &trans  &trans  &kp C_VOLUME_UP  &kp C_VOLUME_UP
-&trans      &trans        &trans        &trans        &trans        &trans          &trans  &trans  &trans  &trans  &kp C_MUTE       &kp C_VOLUME_DOWN
-                                        &trans        &mo 3         &trans          &trans  &mo 3   &trans
+&kp C_RESET  &trans        &trans        &trans        &trans        &trans          &trans  &trans  &trans  &trans  &kp K_MUTE       &tog 4
+&bt BT_CLR   &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &trans  &trans  &trans  &trans  &kp C_VOLUME_UP  &kp C_VOLUME_UP
+&trans       &trans        &trans        &trans        &trans        &trans          &trans  &trans  &trans  &trans  &kp C_MUTE       &kp C_VOLUME_DOWN
+                                         &trans        &mo 3         &trans          &trans  &mo 3   &trans
             >;
         };
 
         layer_4 {
             bindings = <
-&kp ESCAPE  &kp F1  &kp F2   &kp F3   &kp F4   &trans        &trans    &kp N7        &kp N8        &kp N9        &trans      &trans
-&trans      &kp F5  &kp F6   &kp F7   &kp F8   &trans        &trans    &kp NUMBER_4  &kp N5        &kp NUMBER_6  &trans      &kp C_VOLUME_UP
-&trans      &kp F9  &kp F10  &kp F11  &kp F12  &trans        &trans    &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp C_MUTE  &kp C_VOLUME_DOWN
-                             &trans   &trans   &kp K_CALC    &kp PLUS  &kp ENTER     &kp N0
+&tog 4  &kp F1  &kp F2   &kp F3   &kp F4   &trans        &trans    &kp N7        &kp N8        &kp N9        &trans      &kp BACKSPACE
+&trans  &kp F5  &kp F6   &kp F7   &kp F8   &trans        &trans    &kp NUMBER_4  &kp N5        &kp NUMBER_6  &trans      &kp C_VOLUME_UP
+&trans  &kp F9  &kp F10  &kp F11  &kp F12  &trans        &trans    &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp C_MUTE  &kp C_VOLUME_DOWN
+                         &trans   &trans   &kp K_CALC    &kp PLUS  &kp ENTER     &kp N0
             >;
         };
     };
