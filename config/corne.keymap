@@ -37,10 +37,10 @@
 
             label = "Lower";
             bindings = <
-&kp TAB     &kp N1        &kp N2        &kp N3        &kp N4        &kp N5          &kp N6     &kp N7    &kp N8    &kp N9     &kp N0  &kp BSPC
-&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &trans     &trans    &kp UP    &trans     &trans  &kp C_VOLUME_UP
-&kp LSHFT   &trans        &trans        &trans        &trans        &trans          &trans     &kp LEFT  &kp DOWN  &kp RIGHT  &trans  &kp C_VOLUME_DOWN
-                                        &kp LCTRL     &trans        &kp RET         &kp SPACE  &mo 3     &kp RALT
+&kp TAB    &kp N1  &kp N2    &kp N3        &kp N4     &kp N5               &kp N6     &kp N7    &kp N8    &kp N9     &kp N0  &kp BSPC
+&kp LCTRL  &trans  &trans    &kp UP_ARROW  &trans     &kp C_VOLUME_UP      &trans     &trans    &kp UP    &trans     &trans  &kp C_VOLUME_UP
+&kp LSHFT  &trans  &kp LEFT  &kp DOWN      &kp RIGHT  &kp C_VOLUME_DOWN    &trans     &kp LEFT  &kp DOWN  &kp RIGHT  &trans  &kp C_VOLUME_DOWN
+                             &kp LCTRL     &trans     &kp RET              &kp SPACE  &mo 3     &kp RALT
             >;
         };
 
@@ -54,27 +54,27 @@
             label = "Raise";
             bindings = <
 &kp TAB    &kp EXCL  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT    &kp CARET  &kp AMPS   &kp KP_ASTERISK  &kp LPAR  &kp RPAR  &kp BSPC
-&kp LCTRL  &trans    &trans  &trans    &trans    &trans       &kp MINUS  &kp EQUAL  &kp LBKT         &kp RBKT  &kp BSLH  &kp GRAVE
-&kp LSHFT  &trans    &trans  &trans    &trans    &trans       &kp UNDER  &kp PLUS   &kp LBRC         &kp RBRC  &kp PIPE  &kp TILDE
+&kp LCTRL  &trans    &trans  &trans    &trans    &kp GRAVE    &kp MINUS  &kp EQUAL  &kp LBKT         &kp RBKT  &kp BSLH  &kp C_VOLUME_UP
+&kp LSHFT  &trans    &trans  &trans    &trans    &kp TILDE    &kp UNDER  &kp PLUS   &kp LBRC         &kp RBRC  &kp PIPE  &kp C_VOLUME_DOWN
                              &trans    &mo 3     &kp RET      &kp SPACE  &trans     &trans
             >;
         };
 
         layer_3 {
             bindings = <
-&trans      &trans        &trans        &trans        &trans        &trans          &trans  &trans  &trans  &trans  &trans      &tog 4
-&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &trans  &trans  &trans  &trans  &kp K_MUTE  &kp C_VOLUME_UP
-&trans      &trans        &trans        &trans        &trans        &trans          &trans  &trans  &trans  &trans  &trans      &kp C_VOLUME_DOWN
+&trans      &trans        &trans        &trans        &trans        &trans          &trans  &trans  &trans  &trans  &kp K_MUTE       &tog 4
+&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &trans  &trans  &trans  &trans  &kp C_VOLUME_UP  &kp C_VOLUME_UP
+&trans      &trans        &trans        &trans        &trans        &trans          &trans  &trans  &trans  &trans  &kp C_MUTE       &kp C_VOLUME_DOWN
                                         &trans        &mo 3         &trans          &trans  &mo 3   &trans
             >;
         };
 
         layer_4 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &kp C_VOLUME_UP  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans           &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans           &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans    &trans           &trans  &trans
+&kp ESCAPE  &kp F1  &kp F2   &kp F3   &kp F4   &trans        &trans    &kp N7        &kp N8        &kp N9        &trans      &trans
+&trans      &kp F5  &kp F6   &kp F7   &kp F8   &trans        &trans    &kp NUMBER_4  &kp N5        &kp NUMBER_6  &trans      &kp C_VOLUME_UP
+&trans      &kp F9  &kp F10  &kp F11  &kp F12  &trans        &trans    &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp C_MUTE  &kp C_VOLUME_DOWN
+                             &trans   &trans   &kp K_CALC    &kp PLUS  &kp ENTER     &kp N0
             >;
         };
     };
