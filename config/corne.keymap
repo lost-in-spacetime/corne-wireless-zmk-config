@@ -37,7 +37,7 @@
 
             label = "Lower";
             bindings = <
-&kp TAB    &kp N1  &kp N2    &kp N3        &kp N4     &kp N5               &kp N6     &kp N7    &kp N8    &kp N9     &kp N0      &kp BSPC
+&kp TAB    &kp N1  &kp N2    &kp N3        &kp N4     &kp N5               &kp N6     &kp N7    &kp N8    &kp N9     &kp N0      &kp DEL
 &kp LCTRL  &trans  &trans    &kp UP_ARROW  &trans     &kp C_VOLUME_UP      &trans     &trans    &kp UP    &trans     &trans      &kp C_VOLUME_UP
 &kp LSHFT  &trans  &kp LEFT  &kp DOWN      &kp RIGHT  &kp C_VOLUME_DOWN    &trans     &kp LEFT  &kp DOWN  &kp RIGHT  &kp C_MUTE  &kp C_VOLUME_DOWN
                              &kp LCTRL     &trans     &kp RET              &kp SPACE  &mo 3     &kp RALT
@@ -53,7 +53,7 @@
 
             label = "Raise";
             bindings = <
-&kp TAB    &kp EXCL  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT    &kp CARET  &kp AMPS   &kp KP_ASTERISK  &kp LPAR  &kp RPAR  &kp BSPC
+&kp TAB    &kp EXCL  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT    &kp CARET  &kp AMPS   &kp KP_ASTERISK  &kp LPAR  &kp RPAR  &kp DEL
 &kp LCTRL  &trans    &trans  &trans    &trans    &kp GRAVE    &kp MINUS  &kp EQUAL  &kp LBKT         &kp RBKT  &kp BSLH  &kp C_VOLUME_UP
 &kp LSHFT  &trans    &trans  &trans    &trans    &kp TILDE    &kp UNDER  &kp PLUS   &kp LBRC         &kp RBRC  &kp PIPE  &kp C_VOLUME_DOWN
                              &trans    &mo 3     &kp RET      &kp SPACE  &trans     &trans
@@ -73,7 +73,7 @@
 
         layer_4 {
             bindings = <
-&tog 4  &kp F1  &kp F2   &kp F3   &kp F4   &none         &none     &kp N7        &kp N8        &kp N9        &none       &kp BACKSPACE
+&tog 4  &kp F1  &kp F2   &kp F3   &kp F4   &none         &none     &kp N7        &kp N8        &kp N9        &kp DEL     &kp BACKSPACE
 &none   &kp F5  &kp F6   &kp F7   &kp F8   &none         &none     &kp NUMBER_4  &kp N5        &kp NUMBER_6  &none       &kp C_VOLUME_UP
 &none   &kp F9  &kp F10  &kp F11  &kp F12  &none         &none     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp C_MUTE  &kp C_VOLUME_DOWN
                          &trans   &trans   &kp K_CALC    &kp PLUS  &kp ENTER     &kp N0
