@@ -20,10 +20,17 @@
         };
 
         volumeup {
-            bindings = <&kp K_VOLUME_UP>;
-            key-positions = <35 23>;
+            bindings = <&kp C_VOLUME_UP>;
+            key-positions = <23 11>;
             timeout-ms = <50>;
-            layers = <5>;
+            layers = <0>;
+        };
+
+        volumedown {
+            bindings = <&kp C_VOLUME_DOWN>;
+            key-positions = <23 35>;
+            timeout-ms = <50>;
+            layers = <0>;
         };
     };
 
